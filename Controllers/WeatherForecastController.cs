@@ -7,7 +7,7 @@ using Microsoft.Extensions.Logging;
 
 namespace myMicroservice.Controllers
 {
-    [ApiController]
+    [ApiController] // https://www.tutorialsteacher.com/webapi/web-api-controller
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
